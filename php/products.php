@@ -23,9 +23,10 @@
             echo "<div class=\"row\">";
             for ($i = 0; $i < 4; $i++) {
                 if($listProd[$numProduct]) {
-                    echo render("card", ["image" => $listProd[$numProduct]->getImage(),
+                     echo render("card", ["image" => $listProd[$numProduct]->getImage(),
                         "name" => $listProd[$numProduct]->getName(),
                         "description" => $listProd[$numProduct]->getDescription()]);
+
                     $numProduct++;
                 }
             }
