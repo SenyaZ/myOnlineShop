@@ -41,6 +41,10 @@
         </li>
       </ul>
     </nav>
+<<<<<<< HEAD
   </header>
     <?php
 require __DIR__ . "/../src/functions.php";
+=======
+  </header>
+>>>>>>> 46cfe253e1a85876ae47386385e2bc8646510f04
