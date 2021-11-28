@@ -6,7 +6,7 @@
     require_once __DIR__ . "\..\html\header.php";
 ?>
 
-    <main>
+    <main style="padding-top: 100px;">
     <div class="container">
         <div class="row">
             <div class="col-12 content">
