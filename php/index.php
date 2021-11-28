@@ -3,16 +3,9 @@
     $linkBoots = "";
     $linkBasket = "";
     $linkLogIn = "";
-<<<<<<< HEAD
     require_once __DIR__ . "\..\html\header.php";
 ?>
     <main>
-=======
-require_once "../html/header.php";
-?>
-
-<div class="main">
->>>>>>> 46cfe253e1a85876ae47386385e2bc8646510f04
     <div class="container">
         <div class="row">
             <div class="col-12 content">
@@ -131,12 +124,6 @@ require_once "../html/header.php";
             </div>
         </div>
     </div>
-<<<<<<< HEAD
         </main>
 <?php
     require_once __DIR__ .  "\..\html\\footer.html";
-=======
-</div>
-<?php
-    require_once "../html/footer.html";
->>>>>>> 46cfe253e1a85876ae47386385e2bc8646510f04
