@@ -6,7 +6,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>myOnlineShop</title>
-  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../../public/css/style.css">
   <!-- Bootstrap CSS (Cloudflare CDN) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css"
         integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
@@ -23,24 +23,24 @@
 <body>
 <div class="wrapper">
   <header>
-    <img class="logo" src="../media/image-main-page/logo.png" alt="logo">
+    <img class="logo" src="../../public/img/logo.png" alt="logo">
     <!--        <h1>My Shop</h1>-->
     <nav>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link <?php echo $linkMainPage;?>" href="../php/index.php">Main Page</a>
+          <a class="nav-link <?php echo $linkMainPage;?>" href="../../../php/index.php">Main Page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php echo $linkBoots;?>" aria-current="page" href="../php/products.php">Boots</a>
+          <a class="nav-link <?php echo $linkBoots;?>" aria-current="page" href="../../../php/products.php">Boots</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php echo $linkBasket;?>" href="../php/basket.php">Basket</a>
+          <a class="nav-link <?php echo $linkBasket;?>" href="../../../php/basket.php">Basket</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php echo $linkLogIn;?>" href="../php/logIn.php">Log in</a>
+          <a class="nav-link <?php echo $linkLogIn;?>" href="../../../php/logIn.php">Log in</a>
         </li>
       </ul>
     </nav>
   </header>
     <?php
-require __DIR__ . "/../src/functions.php";
+require __DIR__ . "/../../functions.php";

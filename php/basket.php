@@ -3,7 +3,7 @@
     $linkBoots = "";
     $linkBasket = "disabled";
     $linkLogIn = "";
-    require_once __DIR__ . "\..\html\header.php";
+    require_once __DIR__ . "/../public/view/common/header.php";
 ?>
 
     <main style="padding-top: 100px;">
@@ -13,7 +13,7 @@
                 <h1>Your basket</h1>
                 <div class="row">
                     <div class="col-4 content">
-                        <img style="width: 400px" src="../media/image-main-page/boots1.jpg" alt="">
+                        <img style="width: 400px" src="/../public/img//boots1.jpg" alt="">
                     </div>
                     <div class="col-8 content">
                         <ul class="list">
@@ -41,5 +41,5 @@
         </main>
 
 <?php
-    require_once __DIR__ .  "\..\html\\footer.html";
+    require_once __DIR__ . "/../public/view/common/footer.html";
 

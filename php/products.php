@@ -1,10 +1,11 @@
 <?php
+    session_start();
     $linkMainPage = "";
     $linkBoots = "disabled";
     $linkBasket = "";
     $linkLogIn = "";
-    require_once __DIR__ . "\..\html\header.php";
-    require_once __DIR__ . "\..\data\productsData.php";
+    require_once __DIR__ . "/../public/view/common/header.php";
+    require_once __DIR__ . "/../src/model/productsData.php";
     extract($productList, EXTR_SKIP);
 
     //require_once __DIR__ . "\..\src\Product.php";
@@ -16,7 +17,7 @@
     }
 
 
-    require_once __DIR__ . "\..\\templates\startMainInProducts.php";
+    require_once __DIR__ . "/../public/view/startMainInProducts.php";
     $numProduct = 0;
     for ($k = 0; $k < $countProduct; $k++) {
         if ($k % 4 == 0) {
@@ -25,7 +26,8 @@
                 if($listProd[$numProduct]) {
                      echo render("card", ["image" => $listProd[$numProduct]->getImage(),
                         "name" => $listProd[$numProduct]->getName(),
-                        "description" => $listProd[$numProduct]->getDescription()]);
+                        "description" => $listProd[$numProduct]->getDescription(),
+                         "id" => $numProduct]);
 
                     $numProduct++;
                 }
@@ -34,5 +36,5 @@
         }
     }
 
-    require_once __DIR__ . "\..\\templates\\endMainInProducts.php";
-    require_once __DIR__ .  "\..\html\\footer.html";
+    require_once __DIR__ . "/../public/view/endMainInProducts.php";
+    require_once __DIR__ . "/../public/view/common/footer.html";

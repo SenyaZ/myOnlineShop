@@ -1,9 +1,27 @@
+
 <?php
+
+//    ob_start();
+//    session_start();
+
+    // error_reporting(E_ALL);
+    // ini_set("display_errors", 1);
+
+
+    //    session_id('SESSION-ID');
+//    session_start();
+//    $_SESSION['time'] = date('h:i:s');
+//    echo $_SESSION['time'];
+//    echo session_id();
+//
+//    if (isset($_SESSION['name'])){
+//    }
+
     $linkMainPage = "disabled";
     $linkBoots = "";
     $linkBasket = "";
     $linkLogIn = "";
-    require_once __DIR__ . "\..\html\header.php";
+    require_once __DIR__ . "/../public/view/common/header.php";
 ?>
     <main style="padding-top: 100px;">
             <div class="container">
@@ -35,9 +53,9 @@
                                 </p>
                             </div>
                             <div class="col-5 content">
-                                <img class="photo-on-main-page" src="../media/image-main-page/boots1.jpg" alt="boots">
-                                <img class="photo-on-main-page second-photo" src="../media/image-main-page/boots1.jpg" alt="boots">
-                                <img class="photo-on-main-page third-photo" src="../media/image-main-page/boots1.jpg" alt="boots">
+                                <img class="photo-on-main-page" src="/../public/img//boots1.jpg" alt="boots">
+                                <img class="photo-on-main-page second-photo" src="/../public/img//boots1.jpg" alt="boots">
+                                <img class="photo-on-main-page third-photo" src="/../public/img//boots1.jpg" alt="boots">
                             </div>
                         </div>
                     </div>
@@ -45,7 +63,7 @@
                         <div class="card-body">
                             <h5 class="card-title">We have wonderful boots</h5>
                             <p class="card-text">Do you want to see an amazing collection?</p>
-                            <a href="products.html" class="btn btn-primary">Start shopping</a>
+                            <a href="../../../php/products.php" class="btn btn-primary">Start shopping</a>
                         </div>
                     </div>
                     <br/>
@@ -126,4 +144,4 @@
         </div>
     </main>
 <?php
-    require_once __DIR__ .  "\..\html\\footer.html";
+    require_once __DIR__ . "/../public/view/common/footer.html";

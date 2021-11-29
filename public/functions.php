@@ -7,10 +7,10 @@
 
     function render($template, $parrams = []){
 
-        if(file_exists( __DIR__ . "\..\\templates\\" . $template . ".tmp.php")){
+        if(file_exists( __DIR__ . "/../public/view/" . $template . ".tmp.php")){
             ob_start();
             extract($parrams);
-            require __DIR__ . "\..\\templates\\" . $template . ".tmp.php";
+            require __DIR__ . "/../public/view/" . $template . ".tmp.php";
             return ob_get_clean();
 
         }
