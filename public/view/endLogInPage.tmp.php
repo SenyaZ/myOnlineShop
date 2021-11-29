@@ -1,6 +1,9 @@
-<form action="" method="post">
-    <button style="float: right" name="out" type="submit">log Out</button>
-</form>
+
+</div>
+<div class="col content">
+    <form action="" method="post">
+        <button class="btn btn-primary" style="float: right" name="out" type="submit">log Out</button>
+    </form>
 
 </div>
 </div>

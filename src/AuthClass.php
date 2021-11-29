@@ -8,11 +8,11 @@
 
         public function checkValid($login, $password){
             if ($this->login == $login && $this->password == $password){
-                $_SESSION["isAuth"] = true;
+                $this->writeSession('isAuth', true);
                 return true;
             }
             else{
-                $_SESSION["isAuth"] = false;
+                $this->writeSession('isAuth', false);
                 return false;
             }
         }
