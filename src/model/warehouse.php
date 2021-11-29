@@ -16,9 +16,9 @@
             "id" => 1,
             "size" => [
                 "size40" => true,
-                "size41" => false,
+                "size41" => true,
                 "size42" => true,
-                "size43" => false,
+                "size43" => true,
                 "size44" => false,
 
             ],
