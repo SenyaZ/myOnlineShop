@@ -1,11 +1,7 @@
 <?php
 
-    interface authInterface{
-        public function checkValid($login, $password);
-        public function isAuth();
-        public function exit();
-    }
-    class AuthClass implements authInterface
+
+    class AuthClass extends Sessions
     {
         private $login = "root";
         private $password = "1234";
@@ -20,19 +16,19 @@
                 return false;
             }
         }
-
-        public function isAuth(){
-            if(isset($_SESSION['isAuth'])){
-                return $_SESSION['isAuth'];
-            }
-            else{
-                return false;
-            }
-        }
-        public function exit() {
-            $_SESSION = [];
-            session_destroy();
-        }
+//
+//        public function isAuth(){
+//            if(isset($_SESSION['isAuth'])){
+//                return $_SESSION['isAuth'];
+//            }
+//            else{
+//                return false;
+//            }
+//        }
+//        public function exit() {
+//            $_SESSION = [];
+//            session_destroy();
+//        }
 
 
     }

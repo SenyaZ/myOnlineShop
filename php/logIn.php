@@ -10,7 +10,7 @@
     $auth = new AuthClass();
 
 
-    if($auth->isAuth() && !isset($_POST['out'])){
+    if($auth->isHave("isAuth") && !isset($_POST['out'])){
         $message = "You are logged in";
         echo render('logInPage', ["logMenu" => false, "message" => $message]);
 
@@ -31,14 +31,13 @@
         }
         else{
             echo render('logInPage', ["logMenu" => true]);
-//            echo "Error, username or password entered incorrectly";
         }
 
 
     }
 
     if (isset($_POST['out'])){
-        $auth->exit();
+        $auth->destroySessionAll();
     }
 
 
