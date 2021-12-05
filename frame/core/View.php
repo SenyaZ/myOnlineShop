@@ -13,9 +13,9 @@
                 include 'app/views/common/' . $layout . '.php';
             }
 
-            if ( file_exists( __DIR__ . "/../../app/views/".$template .".tmp.php")) {
+            if ( file_exists( __DIR__ . "/../../app/views/" .$template .".tmp.php")) {
                 ob_start();
-                include __DIR__ . "/../../app/views/".$template .".tmp.php";
+                include __DIR__ . "/../../app/views/" .$template .".tmp.php";
                 return ob_get_clean();
             }
         }
