@@ -17,18 +17,18 @@
             }
         }
 //
-//        public function isAuth(){
-//            if(isset($_SESSION['isAuth'])){
-//                return $_SESSION['isAuth'];
-//            }
-//            else{
-//                return false;
-//            }
-//        }
-//        public function exit() {
-//            $_SESSION = [];
-//            session_destroy();
-//        }
+        public function isAuth(){
+            if(isset($_SESSION['isAuth'])){
+                return $_SESSION['isAuth'];
+            }
+            else{
+                return false;
+            }
+        }
+        public function exit() {
+            $_SESSION = [];
+            session_destroy();
+        }
 
 
     }
