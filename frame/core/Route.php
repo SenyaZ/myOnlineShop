@@ -18,8 +18,6 @@
             $route = explode('/', $_SERVER['REQUEST_URI']);
 
 
-
-
             if (!empty($route[1]) )
             {
                 $controllerName =  ucfirst($route[1]);
@@ -31,8 +29,21 @@
 
             }
 
-            $controllerName = 'Controller'. $controllerName;
-            $actionName = 'action_'.$actionName;
+            $modelName = 'Model'.ucfirst($controllerName);
+
+
+
+            $modelFile = $modelName.'.php';
+            $modelPath = "app/models/".$modelFile;
+            if(file_exists($modelPath))
+            {
+                echo "111";
+                include "application/models/".$modelPath;
+            }
+
+
+            $controllerName = $controllerName . 'Controller';
+            $actionName = 'action'.ucfirst($actionName);
 
 
 //            require $newPath = $_SERVER['DOCUMENT_ROOT'] . $controllerName . ".php";

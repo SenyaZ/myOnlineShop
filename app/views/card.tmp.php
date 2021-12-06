@@ -4,7 +4,7 @@
     <div class="card-body">
         <h5 class="card-title"> <?php echo $name; ?></h5>
         <p class="card-text"><?php echo $description; ?></p>
-        <a href="<?php echo "../../php/aboutProd.php/?id=" . $id ?>" class="btn btn-primary">Go buy!</a>
+        <a href="<?php echo "products/about/?id=" . $id ?>" class="btn btn-primary">Go buy!</a>
 
     </div>
 </div>

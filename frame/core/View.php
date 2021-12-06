@@ -2,9 +2,7 @@
 
     class View
     {
-
-
-        public function render($template, $parrams = [], $layout)
+        public function render($template, $parrams = [], $layout = null)
         {
             if(!empty($parrams)){
                 extract($parrams);
@@ -27,9 +25,9 @@
         public function rendLogIn($message, $logMenu){
             echo $this->render("startLogInPage", ['message' => $message], null);
             if ($logMenu == true){
-                echo $this->render('loginArea', null, null);
+                echo $this->render('loginArea');
             }
-            echo $this->render("endLogInPage", null, null);
+            echo $this->render("endLogInPage");
         }
 
 

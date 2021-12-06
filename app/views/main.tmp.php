@@ -38,7 +38,7 @@ Cursus risus at ultrices mi tempus imperdiet nulla. Id aliquet risus feugiat in 
                         <div class="card-body">
                             <h5 class="card-title">We have wonderful boots</h5>
                             <p class="card-text">Do you want to see an amazing collection?</p>
-                            <a href="../../../php/products.php" class="btn btn-primary">Start shopping</a>
+                            <a href="/products" class="btn btn-primary">Start shopping</a>
                         </div>
                     </div>
                     <br/>

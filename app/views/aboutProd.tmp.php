@@ -11,12 +11,12 @@
                     <h1><?php echo $productName?></h1>
                     <p><?php echo $productDescription?></p>
                     <h4>We have all of this size:<?php
-                            foreach ($warehouse[0] as $key => $value){
-                                if($value != false){
-                                    echo "<br/>" . str_replace('size','',$key);
-                                }
-                            }
-                            ?></h4>
+                    foreach ($warehouse[0] as $key => $value) {
+                        if ($value != false) {
+                            echo "<br/>" . str_replace('size', '', $key);
+                        }
+                    }
+                    ?></h4>
                     <button type="button" class="btn btn-outline-dark">Add to basket</button>
                     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 </div>
