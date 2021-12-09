@@ -1,0 +1,142 @@
+HTTP/1.1 500
+8
+Undefined variable: linkLogIn
+C:\OpenServer1\domains\myOnlineShop-mvp\app\views\common\header.php
+40
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+31
+
+HTTP/1.1 500
+8
+Undefined variable: linkLogIn
+C:\OpenServer1\domains\myOnlineShop-mvp\app\views\common\header.php
+40
+
+HTTP/1.1 500
+8
+Undefined variable: linkLogIn
+C:\OpenServer1\domains\myOnlineShop-mvp\app\views\common\header.php
+40
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+30
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+30
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+30
+
+HTTP/1.1 500
+8
+Undefined variable: message
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\LoginController.php
+31
+
+HTTP/1.1 500
+8
+Undefined variable: message
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\LoginController.php
+31
+
+HTTP/1.1 500
+8
+Undefined variable: message
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\LoginController.php
+31
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+30
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+30
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+30
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+31
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+31
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+31
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+32
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+33
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+33
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+33
+Thu, 09 Dec 21 23:48:41 +0300
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+33
+Thu, 09 Dec 21 23:49:36 +0300
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+33
+Thu, 09 Dec 21 23:51:03 +0300
+
+HTTP/1.1 500
+8
+Undefined offset: 15
+C:\OpenServer1\domains\myOnlineShop-mvp\app\controllers\ProductsController.php
+32
+Thu, 09 Dec 21 23:52:08 +0300
+
